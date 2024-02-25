@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: gray;
+    margin: 0px;
+}
+
+header {
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 20px;
+}
+
+nav{ 
+    background-color: gray;
+    padding: 3px;
+    border-radius: 15px;
+
+}
+
+nav > a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    margin-right: 30px;
+
+}
+
+nav > a:hover{
+    text-decoration: underline;
+}
+
+ main {
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 20px;
+
+}
+
+article {
+    padding: 10px;
+    margin: 10px;
+    background-color: lightgray;
+    border-radius: 20px;
+}
+
+article > aside {
+    background-color: gray;
+    border-radius: 20px;
+    margin: 10px;
+    padding: 0.5px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    padding: 10px;
+    border-radius: 20px;
+}
